@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two Column Profile Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .section-box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            height: 100%;
+        }
+
+        h2 {
+            border-bottom: 3px solid #0d6efd;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row g-4">
+
+        <div class="col-lg-6 col-md-12">
+            <div class="section-box">
+                <h2>About Me</h2>
+                <p class="mt-3">
+                    I am a passionate web developer with a strong interest in building
+                    responsive and user-friendly websites using HTML, CSS, JavaScript,
+                    and Bootstrap. I enjoy learning new technologies and working on
+                    real-world projects.
+                </p>
+                <p>
+                    My goal is to become a full-stack developer and contribute to
+                    innovative technology solutions.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+            <div class="section-box">
+                <h2>Education</h2>
+                <ul class="mt-3">
+                    <li><b>BCA</b> – XYZ College (2022-2025)</li>
+                    <li><b>HSC</b> – ABC Junior College</li>
+                    <li><b>SSC</b> – DEF High School</li>
+                </ul>
+
+                <h2 class="mt-4">Experience</h2>
+                <ul class="mt-3">
+                    <li><b>Web Development Intern</b> – 6 Months</li>
+                    <li><b>Freelance Developer</b> – Portfolio & Mini Projects</li>
+                    <li><b>College Tech Team Member</b></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
